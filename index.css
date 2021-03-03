@@ -1,0 +1,99 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color: #f5f5f5;
+  overflow-x: hidden;
+}
+.full-height {
+  height: 100%;
+}
+
+.image {
+  float: left;
+  margin: 5px;
+}
+
+#side-menu {
+  text-align: center;
+  background-color: #6e7376;
+  min-height: 100%;
+  padding-top: 60px;
+}
+
+#side-menu li {
+  margin: 10px;
+  background-color: #6e7f76;
+}
+
+#main-content {
+  background-color: #414141;
+}
+
+#main-content > div {
+  padding-top: 60px;
+}
+
+.project {
+  margin: 10px 5px;
+  border: 1px solid #0a0a0c;
+  padding: 5px;
+}
+
+#ads-side {
+  background-color: #6e7376;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#footer {
+  background-color: #f5f5f5;
+  color: #414141;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  background-color: #f5f5f5;
+}
+
+nav a {
+  color: #414141;
+}
+a {
+  color: #f5f5f5;
+}
+#side-menu a:hover,
+#main-content a:hover {
+  color: #ffffff;
+  text-decoration-line: underline;
+}
+nav a:hover {
+  color: #000000;
+}
+
+.borderless td {
+  border: none;
+}
+
+.navbar-toggler {
+  border-color: #414141;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(128, 128, 128, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#main-content ul {
+  list-style-type: none;
+}
+/* This margin-bottom is used only for last div tag only for understanding purpose 
+      that href tag is working properly */
+#main-content > div:last-child {
+  margin-bottom: 60px;
+}
+
+#endnote {
+  text-align: center;
+  text-shadow: 2px 2px 5px green;
+  font-style: italic;
+}
